@@ -1,0 +1,146 @@
+body {
+    height: 0;
+    margin: 0;
+    background: white;
+}
+
+.f-d {
+    position: relative;
+    background-image: url(donate-file/images/donation5.jpg);
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.s-d {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.a-c {
+    color: black;
+    padding: 10px 25px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.donate {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100%;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: rgb(15, 224, 144);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donate-col {
+    flex-basis: 25%;
+    background-color: deeppink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.donate-col:hover {
+    box-shadow: 0 0 20px 0 red;
+
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+#be {
+    color: red;
+}
+
+.hrra {
+    display: flex;
+    margin-bottom: 100%;
+
+}
+
+
+
+.half-width {
+    width: 100%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+    padding-top: 20px;
+
+
+}
+
+.to-kill {
+    width: 50%;
+}
+
+.dog {
+    text-align: center;
+    color: black;
+}
+
+.OLLA {
+    text-align: center;
+}
+
+.moon {
+    text-align: right;
+    width: 50%;
+}
+
+.bnv {
+    display: inline-flex;
+    padding-right: 10;
+}
+
+.our {
+
+    text-align: center;
+}
